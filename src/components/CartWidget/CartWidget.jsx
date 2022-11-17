@@ -1,5 +1,4 @@
-import React from 'react'
-import { Icon } from '@mui/material';
+import React from 'react';
 import LocalMallTwoToneIcon from '@mui/icons-material/LocalMallTwoTone';
 
 function CartWidget() {
