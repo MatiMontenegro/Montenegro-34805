@@ -28,7 +28,7 @@ import ItemDetailContainer from '../ItemDetailContainer/ItemDetailContainer';
     <br />
   En stock: {stock}
   </Typography>
-  <Link to='/ItemDetail/:id' element={<ItemDetailContainer/>}>Ver detalle</Link>
+  <Link to={`/ItemDetail/${id}`} element={<ItemDetailContainer/>}>Ver detalle</Link>
   </CardContent>
 </Card>
   );
